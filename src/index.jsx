@@ -1,5 +1,5 @@
 import { hydrateRoot, createRoot } from 'react-dom/client';
-import {Root} from './Root.jsx';
+import Root from './Root.jsx';
 
 const node = document.getElementById('react-root'),
 root = <Root/>;

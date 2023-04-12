@@ -40,4 +40,5 @@ build/Release
 # Dependency directories
 node_modules/
 _dest/*.js
+_dest/*.js.*
 pnpm-lock.yaml
