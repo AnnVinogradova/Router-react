@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-import OnePost from './OnePost.jsx';
-import FetchPost from './FetchPost.jsx';
+import OnePost from '../components/OnePost.jsx';
+import FetchPost from '../components/FetchPost.jsx';
 
-export default function ListPosts({ posts: propsPosts }) {
+export default function PostList({ posts: propsPosts }) {
   const [statePostsIds, setPosts] = useState([]);
   const newNmbers = [...Array(10).keys()].map(x=>x+1 + propsPosts.length + statePostsIds.length);
   return (<div className="post-list">

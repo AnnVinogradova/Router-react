@@ -3,8 +3,8 @@ import { useRoute } from 'react-router5';
 import Nav from '../components/Nav.jsx';
 
 import initUsers from '../components/_users.json';
-import UserList from './UserList.jsx';
-import PostList from './PostList.jsx';
+import UserList from '../components/UserList.jsx';
+import PostList from '../components/PostList.jsx';
 
 function Main() {
   const {route} = useRoute();

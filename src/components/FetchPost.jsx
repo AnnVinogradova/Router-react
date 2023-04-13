@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react';
-import OnePost from './OnePost.jsx';
+import OnePost from '../components/OnePost.jsx';
 
 export default function FetchPost({ id }) {
   const [error, setError] = useState(null);

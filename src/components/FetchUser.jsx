@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import OneUser from '../components/OneUser.jsx';
+import UserCard from '../components/UserCard.jsx';
 
 
 export default function FetchUser({ id }) {
@@ -24,6 +24,6 @@ export default function FetchUser({ id }) {
   if (error)
     return <div>Ошибка: {error.message}</div>;
   else if (user)
-    return <OneUser user={user} />;
+    return <UserCard user={user} />;
   return <div className="spinner" />;
 }
