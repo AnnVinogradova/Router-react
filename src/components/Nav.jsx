@@ -4,6 +4,7 @@ export default () =>
   <nav>
     <ConnectedLink routeName="home">Home</ConnectedLink>
     <ConnectedLink routeName="design">Design</ConnectedLink>
+    <ConnectedLink routeName="contacts">Contacts</ConnectedLink>
     <ConnectedLink routeName="users">Users</ConnectedLink>
     <ConnectedLink routeName="posts">Posts</ConnectedLink>
   </nav>;

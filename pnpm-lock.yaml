@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.21.4
   '@babel/preset-react': ^7.18.6
   babel-loader: ^9.1.2
-  micro: ^10.0.1
+  micro: ^9.3.4
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router5: ^8.0.1
@@ -18,7 +18,7 @@ dependencies:
   '@babel/core': 7.21.4
   '@babel/preset-react': 7.18.6_@babel+core@7.21.4
   babel-loader: 9.1.2_2bpkfvz2mezbew2j5yjox7n6pu
-  micro: 10.0.1
+  micro: 9.4.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router5: 8.0.1_react@18.2.0+router5@8.0.1
@@ -1671,9 +1671,9 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /micro/10.0.1:
-    resolution: {integrity: sha512-9uwZSsUrqf6+4FLLpiPj5TRWQv5w5uJrJwsx1LR/TjqvQmKC1XnGQ9OHrFwR3cbZ46YqPqxO/XJCOpWnqMPw2Q==}
-    engines: {node: '>= 16.0.0'}
+  /micro/9.4.1:
+    resolution: {integrity: sha512-Lpjcbp6Y9GJIfewxDfTmu9eW0rt0MGo+Gs1d3yJLFa7mhErtKkCngGhDbA/O1gqUjEwsHh+jWPg8BJ0Bx4AgFA==}
+    engines: {node: '>= 8.0.0'}
     hasBin: true
     dependencies:
       arg: 4.1.0

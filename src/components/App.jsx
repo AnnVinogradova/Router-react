@@ -14,6 +14,8 @@ function Main() {
       return <h1>Home</h1>;
     case 'design':
       return <p>Next step to lern UX/UI design</p>;
+    case 'contacts':
+      return <p>Место нахождения:Российская Федерация, город Санкт-Петербург</p>;
     case 'users':
       return <UserList users={initUsers}/>;
     case 'posts':

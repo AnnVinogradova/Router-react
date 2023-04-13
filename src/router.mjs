@@ -8,6 +8,7 @@ const router = (data => {
 })([
     {name:'home', path:'/'},
     {name:'design', path:'/design'},
+    {name:'contacts', path:'/contacts'},
     {name:'users', path:'/users'},
     {name:'404', path:'/404'},
     {name:'posts', path:'/posts'},

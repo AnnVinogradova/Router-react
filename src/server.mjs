@@ -15,13 +15,14 @@ const
     console.log((new Date()).toLocaleTimeString(), request.method, request.url, 'HTTP/' + request.httpVersion);
     const testFile = './_dest' + request.url;
     if (existsSync(testFile) && lstatSync(testFile).isFile())   
-      return send(response, 200, readFileSync(testFile, 'utf8')); 
+      return send(response, 200, readFileSync(testFile, 'utf8'));  
     router.start(request.url, async (error, state) => {
       if (error)
         return send(response, 404, `<h1>${error.code}</h1>` + JSON.stringify(error));
       switch (state?.name) {
         case 'home':
         case 'design':
+        case 'contacts':
         case 'users':
         case 'posts':
           return send(response, 200, getHtml());
