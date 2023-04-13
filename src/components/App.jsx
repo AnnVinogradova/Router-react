@@ -12,6 +12,8 @@ function Main() {
   switch (route?.name) {
     case 'home':
       return <h1>Home</h1>;
+    case 'design':
+      return <p>Next step to lern UX/UI design</p>;
     case 'users':
       return <UserList users={initUsers}/>;
     case 'posts':
