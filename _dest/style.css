@@ -1,9 +1,9 @@
 body {
-    font-family: system-ui;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
   }
   main{
-    padding: 1em;
+    padding: 2em;
   }
   #react-root:empty,
   .spinner {
@@ -24,8 +24,8 @@ body {
   nav > a.active {
     background-color: ActiveText;
     color: Canvas;
-    text-shadow: 0 0 6px black;
-    /* filter: invert(100%); */
+    text-shadow: 0 0 6px rgb(136, 26, 26);
+   
   }
   
   .user-card{
@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid ActiveText;
-    box-shadow: 4px 4px 6px 0px gray;
+    box-shadow: 4px 4px 6px 0px rgb(141, 183, 232);
   
   }
   
